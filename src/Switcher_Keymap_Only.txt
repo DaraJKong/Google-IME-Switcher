@@ -1,0 +1,6 @@
+DirectInput	Ctrl Shift Insert	InputModeHiragana
+Precomposition	Ctrl Shift Insert	InputModeHiragana
+Composition	Ctrl Shift Insert	InputModeHiragana
+Conversion	Ctrl Shift Insert	InputModeHiragana
+Suggestion	Ctrl Shift Insert	InputModeHiragana
+Prediction	Ctrl Shift Insert	InputModeHiragana
