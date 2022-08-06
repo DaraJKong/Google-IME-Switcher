@@ -18,6 +18,7 @@ Google IME Switcher provides a quick hotkey to toggle between French and Japanes
 
 - Provides a quick hotkey to toggle between French and Japanese keyboard layouts
 - Always sets the [Google IME][ime]'s input mode to Hiragana
+- Don't need to download the custom keymap files anymore
 
 # Installation
 
