@@ -26,7 +26,7 @@ Google IME Switcher provides a quick hotkey to toggle between French and Japanes
 
    | Version           | Operating System  | Download URL       |
    | ----------------- | ----------------- | ------------------ |
-   | [v1.3.2-beta][v1] | Windows 10 32-bit | [Download][v1url1] |
+   | [v1.4.0-beta][v1] | Windows 10 32-bit | [Download][v1url1] |
    |                   | Windows 10 64-bit | [Download][v1url2] |
 
 2. Make sure you have [Google Japanese Input][ime] installed.
