@@ -23,14 +23,14 @@ GetKeyboardLayout(_hWnd := 0) {
 	If (!_hWnd) {
 		ThreadId := 0
 	} Else {
-		ThreadId := DllCall("user32.dll\GetWindowThreadProcessId", "Ptr", _hWnd, "UInt", 0, "UInt")
+		ThreadId := DllCall("GetWindowThreadProcessId", "Ptr", _hWnd, "UInt", 0, "UInt")
 		
 		If (!ThreadId) {
 			Return False
 		}
 	}
 	
-	KBLayout := DllCall("user32.dll\GetKeyboardLayout", "UInt", ThreadId, "UInt")
+	KBLayout := DllCall("GetKeyboardLayout", "UInt", ThreadId, "UInt")
 	
 	If (!KBLayout) {
 		Return False

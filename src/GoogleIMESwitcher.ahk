@@ -8,7 +8,7 @@
 ;@Ahk2Exe-SetName Google IME Switcher
 ;@Ahk2Exe-SetDescription Provides Simple Hotkey for Switching Between FRA and JP Keyboard Layouts
 ;@Ahk2Exe-SetCopyright © 2022 Dara Kong. All rights reserved.
-;@Ahk2Exe-SetVersion 1.3.2
+;@Ahk2Exe-SetVersion 1.4.0
 ;@Ahk2Exe-SetLanguage 0x1009
 ;@Ahk2Exe-SetOrigFilename GoogleIMESwitcher.ahk
 
@@ -33,6 +33,24 @@
 		ExitApp
 	}
 */
+
+
+
+ResourcesPath := A_AppData "\Google IME Switcher"
+
+If (!DirExist(ResourcesPath)) {
+	DirCreate(ResourcesPath)
+}
+
+SetWorkingDir(ResourcesPath)
+
+If (!FileExist("MS-IME_Switcher_Keymap.txt")) {
+	FileInstall("C:\DATA\AutoHotkey Scripts\Goole-IME-Switcher\src\MS-IME_Switcher_Keymap.txt", "MS-IME_Switcher_Keymap.txt", 1)
+}
+
+If (!FileExist("Switcher_Keymap_Only.txt")) {
+	FileInstall("C:\DATA\AutoHotkey Scripts\Goole-IME-Switcher\src\Switcher_Keymap_Only.txt", "Switcher_Keymap_Only.txt", 1)
+}
 
 
 
