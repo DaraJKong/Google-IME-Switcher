@@ -54,7 +54,7 @@ If a warning message appears after attempting to open the executable file, it me
 
 # Uninstallation
 
-To uninstall Google IME Switcher, simply delete the executable file you downloaded.
+To manually uninstall Google IME Switcher, delete the folder "C:\Users\{USERNAME}\AppData\Roaming\Google IME Switcher" and the executable file you downloaded. If you created some shortcuts on the desktop, taskbar or start menu, delete them. If you placed a shortcut of the program in the startup folder, make sure to remove it.
 
 # Technical Informations
 
