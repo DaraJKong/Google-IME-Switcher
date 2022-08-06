@@ -63,6 +63,8 @@ The AutoHotkey version currently used for the main branch of this project is [2.
 
 # TODO
 
+- Fix issue when the SendInput makes the windows flicker in the taskbar
+- Add more detail in "How to use" section
 - Add a configuration file to facilitate the customization of the program
 - Simplify the installation process (no more copying of keyboard shortcuts into [Google IME][ime])
 - Prevent the program from adding mysterious keyboard layouts in the taskbar's language dropdown
