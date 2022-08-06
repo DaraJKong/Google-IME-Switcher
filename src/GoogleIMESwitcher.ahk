@@ -12,8 +12,8 @@
 ;@Ahk2Exe-SetLanguage 0x1009
 ;@Ahk2Exe-SetOrigFilename GoogleIMESwitcher.ahk
 
-;@Ahk2Exe-Base C:\DATA\APPS\AutoHotkey_2.0-beta.7\AutoHotkey32.exe, C:\DATA\AutoHotkey Scripts\Goole-IME-Switcher\target\GoogleIMESwitcher32
-;@Ahk2Exe-Base C:\DATA\APPS\AutoHotkey_2.0-beta.7\AutoHotkey64.exe, C:\DATA\AutoHotkey Scripts\Goole-IME-Switcher\target\GoogleIMESwitcher64
+;@Ahk2Exe-Base C:\DATA\APPS\AutoHotkey_2.0-beta.7\AutoHotkey32.exe, C:\DATA\AutoHotkey Scripts\Google-IME-Switcher\target\GoogleIMESwitcher32
+;@Ahk2Exe-Base C:\DATA\APPS\AutoHotkey_2.0-beta.7\AutoHotkey64.exe, C:\DATA\AutoHotkey Scripts\Google-IME-Switcher\target\GoogleIMESwitcher64
 
 ;@Ahk2Exe-SetMainIcon media\Icon.ico
 
@@ -45,11 +45,11 @@ If (!DirExist(ResourcesPath)) {
 SetWorkingDir(ResourcesPath)
 
 If (!FileExist("MS-IME_Switcher_Keymap.txt")) {
-	FileInstall("C:\DATA\AutoHotkey Scripts\Goole-IME-Switcher\src\MS-IME_Switcher_Keymap.txt", "MS-IME_Switcher_Keymap.txt", 1)
+	FileInstall("C:\DATA\AutoHotkey Scripts\Google-IME-Switcher\src\MS-IME_Switcher_Keymap.txt", "MS-IME_Switcher_Keymap.txt", 1)
 }
 
 If (!FileExist("Switcher_Keymap_Only.txt")) {
-	FileInstall("C:\DATA\AutoHotkey Scripts\Goole-IME-Switcher\src\Switcher_Keymap_Only.txt", "Switcher_Keymap_Only.txt", 1)
+	FileInstall("C:\DATA\AutoHotkey Scripts\Google-IME-Switcher\src\Switcher_Keymap_Only.txt", "Switcher_Keymap_Only.txt", 1)
 }
 
 

@@ -75,6 +75,6 @@ The AutoHotkey version currently used for the main branch of this project is [2.
 [nbit]: https://support.microsoft.com/fr-fr/windows/windows-32-et-64-bits-forum-aux-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d
 [ahk]: https://github.com/Lexikos/AutoHotkey_L/tree/alpha
 [strtp]: https://support.microsoft.com/en-us/windows/change-which-apps-run-automatically-at-startup-in-windows-9115d841-735e-488d-e749-9ba301d441e6
-[v1]: https://github.com/DaraJKong/Goole-IME-Switcher/releases/tag/v1.4.0-beta
-[v1url1]: https://github.com/DaraJKong/Goole-IME-Switcher/releases/download/v1.4.0-beta/GoogleIMESwitcher32.exe
-[v1url2]: https://github.com/DaraJKong/Goole-IME-Switcher/releases/download/v1.4.0-beta/GoogleIMESwitcher64.exe
+[v1]: https://github.com/DaraJKong/Google-IME-Switcher/releases/tag/v1.4.0-beta
+[v1url1]: https://github.com/DaraJKong/Google-IME-Switcher/releases/download/v1.4.0-beta/GoogleIMESwitcher32.exe
+[v1url2]: https://github.com/DaraJKong/Google-IME-Switcher/releases/download/v1.4.0-beta/GoogleIMESwitcher64.exe
